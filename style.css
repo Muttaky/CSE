@@ -1,0 +1,62 @@
+*{
+    text-align: center;
+}
+
+
+nav,article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    width: 80%;
+    margin: 20px;
+}
+
+div{
+    font-size: 50px;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 10px;
+}
+
+div:hover{
+    transform: scale(1.1);
+}
+h1:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+table,td,th{
+    border: 2px solid blue;
+}
+table{
+    margin: 20px;
+    width: 80%;
+}
+
+
+@media only screen and (max-width: 750px) {
+    nav{
+        flex-direction: column;
+    }
+  }
+
+  input{
+    width: 80%;
+  }
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form > input{
+    margin: 5px;
+  }
