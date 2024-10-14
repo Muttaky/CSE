@@ -29,15 +29,15 @@
           </tr>
           
           <tr>
-            <th style="border: 0;"><input type="date" name="" id=""></th>
-            <th style="border: 0;"><input type="file"></th>
-            <th style="border: 0;"><input type="text" name="" id=""></th>
-            <th  style="border: 0;"><input type="text" name="" id=""></th>
-            <th style="border: 0;"><input type="number" name="" id=""></th>
-            <th style="border: 0;"><input type="number" name="" id=""></th>
+            <th style="border: 0;"><input type="text" name="" id="date"></th>
+            <th style="border: 0;" id="photo"><input type="file"></th>
+            <th style="border: 0;"><input type="text" name="" id="model"></th>
+            <th  style="border: 0;"><input type="text" name="" id="quality"></th>
+            <th style="border: 0;"><input type="number" name="" id="quantity"></th>
+            <th style="border: 0;"><input  type="number" name="" id="price"></th>
           </tr>
           <tr>
-            <td style="border: 0;"><button style="background-color: blue;padding:5px;color: aliceblue;border-radius: 10px">BUY</button></td></tr>
+            <td style="border: 0;"><button onclick="buy()" id="buy" style="background-color: blue;padding:5px;color: aliceblue;border-radius: 10px">BUY</button></td></tr>
 
 
 
@@ -56,6 +56,7 @@
                   <th>QUANTITY</th>
                   <th>PRICE</th>
                 </tr>
+                <tr id="tr"></tr>
                 <tr>
                   <td>11-08-2024</td>
                   <td><img src="images/D.jpg" alt=""></td>
@@ -69,5 +70,6 @@
         </article>
     </main>
     <footer></footer>
+    <script src="script.js"></script>
 </body>
 </html>
